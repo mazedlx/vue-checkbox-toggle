@@ -41,7 +41,7 @@ export default {
         }
     },
 
-    data: function() {
+    data() {
         return {
             toggled: this.value
         };
