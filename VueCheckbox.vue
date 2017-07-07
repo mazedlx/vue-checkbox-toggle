@@ -23,6 +23,7 @@
         ></div>
    </div>
 </template>
+
 <script>
 export default {
     computed: {
@@ -65,7 +66,7 @@ export default {
 
         value: {
             type: Boolean,
-            default: ""
+            default: false
         },
 
         showLabels: {
@@ -75,12 +76,12 @@ export default {
 
         labelChecked: {
             type: String,
-            default: ""
+            default: ''
         },
 
         labelUnchecked: {
             type: String,
-            default: ""
+            default: ''
         },
     },
 }
