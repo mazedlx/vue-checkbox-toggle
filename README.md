@@ -6,19 +6,34 @@ A simple VueJS checkbox replacment thing.
 
 First, install it with NPM
 
-`npm install vue-checkbox-toggle`
+```bash
+npm install vue-checkbox-toggle
+```
 
 Then, import it where needed
 
-`import vue-checkbox-toggle from 'vue-checkbox-toggle';`
+```javascript
+import vue-checkbox-toggle from 'vue-checkbox-toggle';
+```
 
 Finally, use it like
 
-```
+```vue
 <vue-checkbox-toggle
     v-model="val"
-    showLabels
-    labelCheck="on"
-    labelUnchecked="off"
-></vue-checkbox-toggle>```
+    show-labels
+    label-check="on"
+    label-unchecked="off"
+></vue-checkbox-toggle>
+```
+
+## Props
+
+| Prop | Description |
+|------|-------------|
+|show-labels|Wether or not to show the label|
+|label-check|The label to show when the checkbox is checked|
+|label-uncheck|The label to show when the checkbox is unchecked|
+|disabled|Disables the control|
+
 
