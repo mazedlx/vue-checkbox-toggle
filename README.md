@@ -13,7 +13,13 @@ npm install vue-checkbox-toggle
 Then, import it where needed
 
 ```javascript
-import vue-checkbox-toggle from 'vue-checkbox-toggle';
+import vueCheckboxToggle from 'vue-checkbox-toggle';
+
+...
+components: {
+    vueCheckboxToggle,
+}
+...
 ```
 
 Finally, use it like
@@ -22,7 +28,7 @@ Finally, use it like
 <vue-checkbox-toggle
     v-model="val"
     show-labels
-    label-check="on"
+    label-checked="on"
     label-unchecked="off"
 ></vue-checkbox-toggle>
 ```
@@ -32,7 +38,7 @@ Finally, use it like
 | Prop | Description |
 |------|-------------|
 |show-labels|Wether or not to show the label|
-|label-check|The label to show when the checkbox is checked|
+|label-checked|The label to show when the checkbox is checked|
 |label-uncheck|The label to show when the checkbox is unchecked|
 |disabled|Disables the control|
 
