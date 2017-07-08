@@ -39,7 +39,7 @@ Finally, use it like
 |------|-------------|
 |show-labels|Wether or not to show the label|
 |label-checked|The label to show when the checkbox is checked|
-|label-uncheck|The label to show when the checkbox is unchecked|
+|label-unchecked|The label to show when the checkbox is unchecked|
 |disabled|Disables the control|
 
 
