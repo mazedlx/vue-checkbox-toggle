@@ -50,8 +50,8 @@ export default {
 
     methods: {
         toggle: function(e) {
-            if (this.disabled || e.keyCode === 9) { // not if disabled or tab is pressed
-                e.stop();
+            if (this.disabled || e.keyCode === 9) { // if disabled or tab is pressed
+                return false;
             }
             this.toggled = ! this.toggled;
             this.$emit("input", this.toggled);

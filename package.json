@@ -22,5 +22,6 @@
   "homepage": "https://github.com/mazedlx/vue-checkbox-toggle#readme",
   "devDependencies": {
     "vue-style-loader": "^3.0.1"
-  }
+  },
+  "dependencies": {}
 }
