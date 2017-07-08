@@ -1,6 +1,6 @@
 {
   "name": "vue-checkbox-toggle",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple VueJS checkbox replacement thing",
   "main": "VueCheckbox.vue",
   "scripts": {
